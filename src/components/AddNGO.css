@@ -1,0 +1,81 @@
+
+
+
+.addngo-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f4f4f9; 
+  }
+  
+  
+  .addngo-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .addngo-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .addngo-box input,
+  .addngo-box textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .addngo-box input[type="text"] {
+    height: 40px;
+  }
+  
+  .addngo-box textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .addngo-box button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    background-color: #007bff; 
+    font-size: 16px;
+  }
+  
+  .addngo-box button:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+  }
+  
+ 
+  @media (max-width: 600px) {
+    .addngo-box {
+      padding: 10px;
+    }
+    
+    .addngo-box input, 
+    .addngo-box textarea, 
+    .addngo-box button {
+      width: 100%;
+    }
+  }
+  
